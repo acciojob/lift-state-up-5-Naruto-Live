@@ -7,7 +7,7 @@ const Login = ({ isLoggedIn , setIsLoggedIn }) => {
   };
 
   if(isLoggedIn) {
-    return <p>Logged In Successfully</p>;
+    return <p>You are logged in!</p>;
   }
 
   return (
